@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topnav{
+    padding:10px;
+}
+.Logo{
+    width:80px;
+}
+.link1{
+    padding:10px;
+    margin:10px;
+    text-decoration: none;
+    color:rgb(77, 76, 76);
+}
+.link1:hover{
+    background-color:fuchsia;
+    color:#fff;
+}
+.nav{
+    background-color:rgb(43, 42, 42);
+    padding:10px;
+}
+.nav a{ 
+    padding:10px;
+    text-decoration: none;
+    margin:15px;
+    color:#fff;
+}
+.nav a:hover{
+    background-color: #656464;
+}
+.row{
+    background-color: #282a35;
+    background-image: url(../Images/bg.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.row h1{
+    padding:100px;
+    text-align: center;
+    color:#fff;
+}
