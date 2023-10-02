@@ -34,10 +34,10 @@
     color:#fff;
 }
 .nav a:hover{
-    background-color: #656464;
+    background-color:#656464;
 }
 .row{
-    background-color: #282a35;
+    background-color:#282a35;
     background-image: url(../Images/bg.png);
     background-position: right center;
     background-repeat: no-repeat;
@@ -70,4 +70,62 @@
     padding:10px;
     border-radius:20px;
     border:1px solid #CCC;
+}
+.footer{
+    text-align:center;
+    padding:20px;
+}
+.fa-brands:hover{
+    color:red!important;
+    padding:10px;
+    background-color:aqua;
+    border-radius:50%;
+    box-shadow:2xp 2px 2px red;
+    transition: 0.5s;
+}
+.foot p{
+    margin:10px;
+    padding:10px;
+    text-align:left;
+    font-size:14px;
+}
+.social-foot a{
+    text-decoration:none;
+}
+.social-foot a:hover{
+    color:red;
+}
+/* HTML page */
+.left-col{
+    float:left;
+}
+.mid-col{
+    float:left;
+}
+.right-col{
+    float:left;
+}
+.menu header{
+    color:#282a35;
+    margin-top:20px;
+    padding:10px;
+}
+.menu li{
+    margin:20px;
+}
+.menu li a{
+    text-decoration:none;
+    color:#000;
+    padding:10px;
+}
+.menu li a:hover{
+    color:rgb(7, 7, 118);
+}
+.active{
+    background-color:cyan;
+    color:#fff;
+}
+.mid-head{
+    margin:10px!important;
+    font-size:25px;
 }
